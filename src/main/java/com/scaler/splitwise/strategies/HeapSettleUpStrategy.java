@@ -1,0 +1,14 @@
+package com.scaler.splitwise.strategies;
+
+import com.scaler.splitwise.models.Expense;
+import com.scaler.splitwise.services.SettleUpService;
+import org.springframework.stereotype.Component;
+
+import java.util.List;
+@Component
+public class HeapSettleUpStrategy implements SettleUpStrategy {
+    @Override
+    public List<Expense> settleUp(List<Expense> expensesToSettle) {
+        return null;
+    }
+}
